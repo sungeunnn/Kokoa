@@ -1,2 +1,2 @@
 # Kokoa
-##kakao talk clone coding (HTML/CSS)
+## kakao talk clone coding (HTML/CSS)
