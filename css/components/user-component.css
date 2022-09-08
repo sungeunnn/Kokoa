@@ -22,6 +22,7 @@
 }
 
 .user-component__subtitle {
+    display:flex;
     margin-top:5px;
     font-size: 17px;
     color: rgba(0,0,0,0.5);
@@ -54,4 +55,17 @@
 .user-component_time {
     margin-bottom: 10px;
     display: block;
+}
+
+.user-component__subtitle span {
+    display:block;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    width: 13px;
+    height: 13px;
+    color:tomato;
+    border-radius: 50%;
+    border: 2px solid tomato;
 }
