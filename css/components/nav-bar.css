@@ -19,10 +19,23 @@
     position:relative;
 }
 
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(180deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav_notification {
     position: absolute;
     left: 20px;
     bottom : 15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav_setting {
@@ -34,4 +47,19 @@
     left: 30px;
     bottom: 30px;
 
+}
+
+@keyframes appearBtnAnimation{
+    from {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.nav__btn {
+    animation: appearBtnAnimation 1s ease-in-out;
 }

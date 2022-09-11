@@ -51,5 +51,6 @@ padding: 0px var(--horizontal-space);
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    animation: hideSplashScreen 2s ease-in-out forwards;
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 1.5s;
 }
