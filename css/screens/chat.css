@@ -114,6 +114,8 @@
     padding: 5px 25px;
     align-items: center;
     box-sizing: border-box;
+    align-items: center;
+    transition: all 0.3 ease-in-out;
 }
 .reply .reply__column:first-child {
     width: 10%;
@@ -133,12 +135,14 @@
     width: 100%;
     border:var(--main-border);
     border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform all 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
     position: absolute;
-    right:-3px;
+    right:2px;
     top: 5px;
 }
 
@@ -178,7 +182,7 @@
 
 .reply:focus-within input {
   width: 98vw;
-  transform: translateX(-13%) translateY(-80px);
+  transform: translateX(-14%) translateY(-80px);
 }
 
 .reply:focus-within {
