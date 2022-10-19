@@ -148,7 +148,7 @@
 
 .reply__column:last-child > i{
     right: 40px;
-    top: 12px;
+    top: 18px;
 }
 
 .reply__column button {
@@ -188,4 +188,3 @@
 .reply:focus-within {
   transform: translateY(80px);
 }
-
