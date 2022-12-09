@@ -1,2 +1,9 @@
-# Kokoa
-## kakao talk clone coding (HTML/CSS)
+# 노마드코더 - kakao talk clone coding (HTML/CSS)
+HTML/CSS만을 사용한 클론코딩
+
+<img src = "https://github.com/sungeunnn/Kokoa/blob/main/result/index.JPG" width="200" height = "300"/>
+<img src = "https://github.com/sungeunnn/Kokoa/blob/main/result/index-size.JPG" width="200" height = "300"/>
+<img src = "https://github.com/sungeunnn/Kokoa/blob/main/result/frineds.JPG" width="200" height = "300"/>
+<img src = "https://github.com/sungeunnn/Kokoa/blob/main/result/chats.JPG" width="200" height = "300"/>
+<img src = "https://github.com/sungeunnn/Kokoa/blob/main/result/more.JPG" width="200" height = "300"/>
+<img src = "https://github.com/sungeunnn/Kokoa/blob/main/result/settings.JPG" width="200" height = "300"/>
